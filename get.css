@@ -1,0 +1,458 @@
+    body {
+        background: #daedeb;
+        font-family: "Nunito", sans-serif;
+    }
+    
+    .blurb p {
+        color: #f498b8;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 2;
+    }
+    
+    #search {
+        margin-top: 10px;
+    }
+    
+    .logo {
+        width: 80px;
+        margin-left: 10px;
+        background-position-x: left;
+        margin-top: 0px;
+        background-color: #ffffff;
+    }
+    
+    #brand {
+        font-size: 25px;
+    }
+    
+    .content {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    #mainNavbar {
+        font-size: 20px;
+        font-weight: bold;
+        height: 80px;
+        margin-right: 20px;
+        background-color: #ffffff;
+    }
+    
+    #nav1 {
+        margin-left: 100px;
+    }
+    
+    #mainNavbar .nav-link {
+        color: rgb(0, 0, 0);
+        margin: 6px;
+    }
+    
+    #mainNavbar .nav-link:hover {
+        color: #000000;
+        font-size: 28px;
+    }
+    
+    #headingGroup span {
+        color: #EA1C2C;
+    }
+    
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 4rem;
+    }
+    
+    .navbar.scrolled {
+        background: rgb(222, 192, 222);
+        transition: background 500ms;
+    }
+    
+    @media (max-width: 1200px) {
+        #headingGroup h1 {
+            font-weight: 100;
+            font-size: 3rem;
+        }
+        .blurb h2 {
+            font-size: 2rem;
+        }
+    }
+    
+    .carousel .item {
+        height: 350px
+    }
+    
+    .carousel-caption {
+        background-color: #f7f1eb;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        max-width: 60%;
+        margin-bottom: 70px;
+        left: 30 !important;
+        right: 0 !important;
+        opacity: 0.7;
+    }
+    
+    #brand img {
+        float: left;
+        width: 200px;
+        margin-right: 20px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .shop {
+        text-align: center;
+        margin-top: 45px;
+        font-size: 50px;
+        font-family: 'Kaushan Script', cursive;
+        margin-bottom: 20px;
+    }
+    /* Accounts Page */
+    
+    #styleme {
+        text-align: center;
+        color: #3a5351;
+        margin-left: 400px;
+        font-size: 40px;
+        margin-top: 20px;
+        font-family: 'Sriracha', cursive;
+    }
+    
+    #account {
+        background-color: #c2efec;
+    }
+    
+    #account_home {
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 30px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #signin {
+        margin-left: 190px;
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    .ex {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Crete Round', serif;
+    }
+    
+    #login {
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        margin-top: 13px;
+        /* border: 2px solid #3a5351; */
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    #rem {
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    #reg {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    .form a {
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: 'Gentium Basic', serif;
+    }
+    /* Women Wear */
+    
+    #side_info {
+        border: 1px solid white;
+        margin-left: 10px;
+        padding: 5 5 5 5;
+        text-align: center;
+        float: left;
+        position: sticky;
+    }
+    
+    .info1 {
+        font-size: 17px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    p:hover {
+        color: #e63946;
+        font-size: 19px;
+    }
+    
+    .ethn {
+        color: #000000;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-family: 'Bree Serif', serif;
+        font-size: 30PX;
+        margin-left: 600px;
+    }
+    
+    .ethnic {
+        margin-left: 120;
+        margin-bottom: 50px;
+    }
+    
+    .column {
+        float: left;
+        width: 13%;
+        padding: 0px;
+        margin-left: 16px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 13px;
+        margin-bottom: 70px;
+        display: block;
+        position: static;
+    }
+    
+    .column1 {
+        white-space: pre-wrap;
+        float: left;
+        clear: right;
+        padding: 0px;
+        width: 13%;
+        margin-left: 16px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        font-size: 13px;
+        position: relative;
+    }
+    
+    .column2 {
+        float: left;
+        width: 13%;
+        padding: 0px;
+        margin-left: 16px;
+        margin-top: 40px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 13px;
+        position: static;
+        margin-bottom: 70;
+    }
+    
+    #western {
+        margin-top: 900px;
+        margin-left: 550px;
+        margin-bottom: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 30px;
+        color: #000000;
+    }
+    
+    .column3 {
+        float: right;
+        width: 13%;
+        padding: 0px;
+        margin-left: 16px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 13px;
+        margin-bottom: 70px;
+        display: block;
+    }
+    
+    .column4 {
+        float: right;
+        width: 13%;
+        padding: 0px;
+        margin-left: 16px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 13px;
+        margin-bottom: 70px;
+        display: block;
+        margin-top: 45px;
+    }
+    
+    .column5 {
+        float: right;
+        width: 13%;
+        padding: 0px;
+        margin-left: 16px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 13px;
+        margin-bottom: 70px;
+        display: block;
+        margin-top: 45px;
+    }
+    
+    .western1 {
+        margin-right: 100px;
+    }
+    
+    #footwear {
+        margin-left: 550px;
+    }
+    
+    #foot {
+        margin-right: 60px;
+    }
+    /* Men Wear */
+    
+    #men_side {
+        border: 1px solid white;
+        margin-left: 10px;
+        padding: 5 5 5 5;
+    }
+    
+    #men_top_wear {
+        text-align: center;
+        color: #000000;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-family: 'Bree Serif', serif;
+        font-size: 30PX;
+    }
+    
+    #men_bottom_wear {
+        text-align: center;
+        color: #000000;
+        margin-bottom: 30px;
+        margin-top: 670px;
+        margin-left: 100px;
+        text-decoration: underline;
+        font-family: 'Bree Serif', serif;
+        font-size: 30PX;
+    }
+    
+    .row {
+        white-space: pre-wrap;
+        float: left;
+        width: 13%;
+        padding: 0px;
+        height: 200px;
+        margin-left: 22px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        white-space: pre-wrap;
+        margin-bottom: 130px;
+    }
+    
+    .top_wear {
+        margin-right: 100px;
+    }
+    
+    .row1 {
+        white-space: pre-wrap;
+        float: right;
+        width: 13%;
+        padding: 0px;
+        margin-left: 10px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+    
+    .row2 {
+        white-space: pre-wrap;
+        float: left;
+        width: 13%;
+        padding: 0px;
+        margin-right: 100px;
+        height: 200px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    /* Bottom left text */
+    
+    .cat {
+        background-color: white;
+        width: 180px;
+        height: 320px;
+        margin-left: 50px;
+        padding: 10px 10px 10px 10px;
+        padding-right: 10px;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .cat img {
+        width: 165px;
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+    }
+    /* Footer */
+    
+    #footer {
+        top: 2450px;
+        position: absolute;
+        /* background-color: rgb(244, 241, 241); */
+        background-color: black;
+        color: white;
+        list-style: none;
+        width: 1263px;
+        height: 300px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    #footerm {
+        top: 2000px;
+        position: absolute;
+        /* background-color: rgb(244, 241, 241); */
+        background-color: black;
+        color: white;
+        list-style: none;
+        width: 1263px;
+        height: 300px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    #footerw {
+        top: 3000px;
+        position: absolute;
+        /* background-color: rgb(244, 241, 241); */
+        background-color: black;
+        color: white;
+        list-style: none;
+        width: 1263px;
+        height: 300px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    #footer div {
+        margin-bottom: 0;
+        margin-left: 30px;
+        text-align: center;
+        color: white;
+    }
+    
+    #footer svg {
+        margin-left: 10px;
+    }
